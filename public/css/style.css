@@ -1,0 +1,28 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1600px;
+}
+
+.header .logo {
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: -6px;
+}
+.header nav {
+  color: #87868b;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+h1 {
+  color: aqua;
+}
+
+/*# sourceMappingURL=style.css.map */
