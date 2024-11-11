@@ -2,6 +2,23 @@
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
 p {
   margin: 0;
 }
@@ -15,14 +32,38 @@ p {
   font-size: 60px;
   letter-spacing: -6px;
 }
-.header nav {
+.header nav a {
   color: #87868b;
   font-size: 24px;
   font-weight: 700;
 }
 
-h1 {
-  color: aqua;
+.black-btn {
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  background: #000000;
+  padding: 30px 24px;
+  max-width: 350px;
+  justify-content: space-between;
+  color: #fff;
+}
+.black-btn:hover {
+  background: #1c1c1c;
+  color: #fff;
+}
+
+.hero-section {
+  padding: 190px 0;
+  background: url("/public/images/hero-image.png") no-repeat center;
+}
+.hero-section h1 {
+  font-size: 100px;
+  color: #000000;
+}
+.hero-section p {
+  font-size: 24px;
+  color: #19181a;
 }
 
 /*# sourceMappingURL=style.css.map */

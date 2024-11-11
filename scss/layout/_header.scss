@@ -5,8 +5,10 @@
     letter-spacing: -6px;
   }
   nav {
-    color: #87868b;
-    font-size: 24px;
-    font-weight: 700;
+    a {
+      color: #87868b;
+      font-size: 24px;
+      font-weight: 700;
+    }
   }
 }

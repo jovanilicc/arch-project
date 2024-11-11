@@ -1,3 +1,28 @@
-h1 {
-  color: aqua;
+.black-btn {
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  background: #000000;
+  padding: 30px 24px;
+  max-width: 350px;
+  justify-content: space-between;
+  color: #fff;
+  &:hover {
+    background: #1c1c1c;
+    color: #fff;
+  }
+}
+
+.hero-section {
+  padding: 190px 0;
+  background: url("/public/images/hero-image.png") no-repeat center;
+
+  h1 {
+    font-size: 100px;
+    color: #000000;
+  }
+  p {
+    font-size: 24px;
+    color: #19181a;
+  }
 }
