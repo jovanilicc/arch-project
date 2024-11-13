@@ -7,16 +7,51 @@
   max-width: 350px;
   justify-content: space-between;
   color: #fff;
+  transition: all 0.3s ease;
   &:hover {
-    background: #1c1c1c;
+    background: #393939;
     color: #fff;
   }
 }
 
 .hero-section {
-  padding: 190px 0;
+  padding: 170px 0;
+  margin-bottom: 160px;
   background: url("/public/images/hero-image.png") no-repeat center;
 
+  .box {
+    max-width: 240px;
+    display: flex;
+    left: -90px;
+    bottom: -165px;
+    position: absolute;
+
+    &__item {
+      color: #87868b;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 10px;
+      min-width: 80px;
+      min-height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fff;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      &:hover {
+        background: #4b4b4b;
+        color: #fff;
+      }
+      &--active {
+        background: #000000;
+        color: #fff;
+        &:hover {
+          background: #000000;
+        }
+      }
+    }
+  }
   h1 {
     font-size: 100px;
     color: #000000;

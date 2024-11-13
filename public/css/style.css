@@ -47,15 +47,49 @@ p {
   max-width: 350px;
   justify-content: space-between;
   color: #fff;
+  transition: all 0.3s ease;
 }
 .black-btn:hover {
-  background: #1c1c1c;
+  background: #393939;
   color: #fff;
 }
 
 .hero-section {
-  padding: 190px 0;
+  padding: 170px 0;
+  margin-bottom: 160px;
   background: url("/public/images/hero-image.png") no-repeat center;
+}
+.hero-section .box {
+  max-width: 240px;
+  display: flex;
+  left: -90px;
+  bottom: -165px;
+  position: absolute;
+}
+.hero-section .box__item {
+  color: #87868b;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px;
+  min-width: 80px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.hero-section .box__item:hover {
+  background: #4b4b4b;
+  color: #fff;
+}
+.hero-section .box__item--active {
+  background: #000000;
+  color: #fff;
+}
+.hero-section .box__item--active:hover {
+  background: #000000;
 }
 .hero-section h1 {
   font-size: 100px;
