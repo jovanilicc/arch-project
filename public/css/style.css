@@ -62,8 +62,8 @@ p {
 .hero-section .box {
   max-width: 240px;
   display: flex;
-  left: -90px;
-  bottom: -165px;
+  left: -92px;
+  bottom: -166px;
   position: absolute;
 }
 .hero-section .box__item {
@@ -81,7 +81,7 @@ p {
   transition: all 0.2s ease;
 }
 .hero-section .box__item:hover {
-  background: #4b4b4b;
+  background: #393939;
   color: #fff;
 }
 .hero-section .box__item--active {
@@ -98,6 +98,47 @@ p {
 .hero-section p {
   font-size: 24px;
   color: #19181a;
+}
+
+.welcome-section {
+  margin-bottom: 270px;
+}
+.welcome-section .bg-stairs {
+  background: url("/public/images/spiral-stairscase.png") no-repeat;
+  background-position: right bottom;
+  padding-bottom: 30px;
+}
+.welcome-section .intro {
+  font-weight: 600;
+  font-size: 260px;
+  color: #e3e2e7;
+  padding-bottom: 73px;
+  line-height: 1;
+}
+.welcome-section h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+.welcome-section p {
+  color: #87868b;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.about-section {
+  margin-bottom: 280px;
+}
+.about-section .bg-team {
+  background: url("/public/images/design-ideas.png") no-repeat center;
+  background-size: cover;
+  padding: 280px 0;
+}
+.about-section h2 {
+  font-size: 60px;
+  color: #fff;
+}
+.about-section .black-btn {
+  max-width: 250px;
 }
 
 /*# sourceMappingURL=style.css.map */
