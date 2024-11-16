@@ -23,3 +23,19 @@ p {
 .container {
   max-width: 1600px;
 }
+
+.black-btn {
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  background: #000000;
+  padding: 30px 24px;
+  max-width: 350px;
+  justify-content: space-between;
+  color: #fff;
+  transition: all 0.3s ease;
+  &:hover {
+    background: #393939;
+    color: #fff;
+  }
+}

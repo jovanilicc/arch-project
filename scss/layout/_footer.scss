@@ -1,0 +1,29 @@
+.footer {
+  .grey-bg {
+    background: linear-gradient(
+      90deg,
+      rgba(227, 226, 231, 1) 88%,
+      rgba(255, 255, 255, 1) 88%
+    );
+  }
+  .logo {
+    color: #fff;
+    font-size: 60px;
+    line-height: 1.2;
+    font-weight: 900;
+  }
+  .black-bg {
+    background: #000;
+    padding: 80px 0;
+  }
+  .black-btn {
+    width: 350px;
+    color: #fff;
+    font-weight: 500;
+  }
+  a {
+    color: #87868b;
+    font-size: 24px;
+    font-weight: 700;
+  }
+}
