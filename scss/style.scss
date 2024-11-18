@@ -1,8 +1,8 @@
-@use "../scss/globals/globals";
-@use "../scss/globals/breakpoints";
+@import "../scss/globals/breakpoints";
+@import "../scss/globals/globals";
 
-@use "../scss/layout/header";
-@use "../scss/layout/footer";
+@import "../scss/layout/header";
+@import "../scss/layout/footer";
 
-@use "../scss/pages/index.scss";
-@use "../scss/pages/about";
+@import "../scss/pages/index";
+@import "../scss/pages/about";

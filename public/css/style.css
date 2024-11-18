@@ -48,6 +48,11 @@ p {
   font-size: 60px;
   letter-spacing: -6px;
 }
+@media only screen and (max-width: 1200px) {
+  .header .logo {
+    font-size: 30px;
+  }
+}
 .header nav a {
   color: #87868b;
   font-size: 24px;
@@ -87,7 +92,7 @@ p {
   max-width: 240px;
   display: flex;
   left: -92px;
-  bottom: -167px;
+  bottom: -168px;
   position: absolute;
 }
 .hero-section .box__item {

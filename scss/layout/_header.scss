@@ -3,7 +3,11 @@
     font-weight: 900;
     font-size: 60px;
     letter-spacing: -6px;
+    @include lg-query {
+      font-size: 30px;
+    }
   }
+
   nav {
     a {
       color: #87868b;

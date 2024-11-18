@@ -11,7 +11,13 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css"
+      integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,18 +31,49 @@
     <title>Arch.</title>
   </head>
   <body>
-    <header class="header py-3">
+    <header class="header">
       <div class="container">
-        <div class="row py-4 align-items-center">
-          <div class="col-1 me-5">
+        <div class="row py-4 align-md-items-center">
+          <div class="col-3 col-md-2 col-xl-1 me-md-5">
             <a href="./index.html" class="logo">Arch.</a>
           </div>
-          <div class="col-4 ms-5">
-            <nav class="d-flex justify-content-between align-items-center">
-              <a href="#portfolio">Portfolio</a>
-              <a href="./about.html">About Us</a>
-              <a href="#contact">Contact</a>
-            </nav>
+          <div class="col-6 col-xl-4 ms-md-5">
+            <div
+              class="collapse d-md-block pt-5 pt-md-0"
+              id="navbarToggleExternalContent"
+            >
+              <nav
+                class="flex-column d-flex flex-md-row justify-content-between align-items-center"
+              >
+                <a href="#portfolio">Portfolio</a>
+                <a href="./about.html">About Us</a>
+                <a href="#contact">Contact</a>
+              </nav>
+            </div>
+          </div>
+          <div class="col-2 text-end ms-auto d-md-none">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span>
+                <svg
+                  style="width: 25px; height: 25px"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 448 512"
+                >
+                  <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path
+                    d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+                  />
+                </svg>
+              </span>
+            </button>
           </div>
         </div>
       </div>
