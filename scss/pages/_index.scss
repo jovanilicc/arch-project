@@ -2,14 +2,23 @@
   padding: 170px 0;
   margin-bottom: 160px;
   background: url("/public/images/hero-image.png") no-repeat center;
-
+  @include xl-query {
+    margin-bottom: 100px;
+    padding: 100px 0;
+  }
   .box {
     max-width: 240px;
     display: flex;
     left: -92px;
     bottom: -168px;
     position: absolute;
-
+    box-shadow: 2 2 4px #212121;
+    @media only screen and (max-width: 1800px) {
+      left: -12px;
+    }
+    @include xl-query {
+      bottom: -102px;
+    }
     &__item {
       color: #87868b;
       font-size: 18px;
@@ -39,20 +48,33 @@
   h1 {
     font-size: 100px;
     color: #000000;
+    @include lg-query {
+      font-size: 60px;
+    }
   }
   p {
     font-size: 24px;
     color: #19181a;
+    @include md-query {
+      font-size: 16px;
+    }
   }
 }
 
 .welcome-section {
   margin-bottom: 270px;
+  @include xl-query {
+    margin-bottom: 180px;
+  }
   .bg-stairs {
     background: url("/public/images/spiral-stairscase.png") no-repeat;
 
     background-position: right bottom;
     padding-bottom: 30px;
+    @include xl-query {
+      background-size: 50%;
+      padding-bottom: 0;
+    }
   }
   .intro {
     font-weight: 600;
@@ -60,38 +82,65 @@
     color: #e3e2e7;
     padding-bottom: 73px;
     line-height: 1;
+    @include xl-query {
+      font-size: 160px;
+    }
   }
   h2 {
     font-size: 60px;
     font-weight: 700;
+    @include xl-query {
+      font-size: 48px;
+    }
   }
   p {
     color: #87868b;
     font-size: 24px;
     font-weight: 500;
+    @include xl-query {
+      font-size: 20px;
+    }
   }
 }
 .about-section {
   margin-bottom: 280px;
+  @include xl-query {
+    margin-bottom: 100px;
+  }
   .bg-team {
     background: url("/public/images/design-ideas.png") no-repeat center;
     background-size: cover;
     padding: 280px 0;
+    @include xl-query {
+      padding: 140px 0;
+    }
   }
   h2 {
     font-size: 60px;
     color: #fff;
+    @include xl-query {
+      font-size: 48px;
+    }
   }
   .black-btn {
     max-width: 250px;
+    @include xl-query {
+      max-width: 200px;
+    }
   }
 }
 .featured-section {
   margin-bottom: 220px;
+  @include xl-query {
+    margin-bottom: 100px;
+  }
   h2 {
     font-size: 60px;
     line-height: 1;
     font-weight: 700;
+    @include xl-query {
+      font-size: 48px;
+    }
   }
   .black-btn {
     width: 210px;
@@ -107,11 +156,17 @@
       left: 0;
       color: #fff;
       padding: 40px 60px 60px 60px;
+      @include xl-query {
+        padding: 30px 45px 45px 45px;
+      }
     }
     &__number {
       font-size: 270px;
       font-weight: 500;
       line-height: 1;
+      @include xl-query {
+        font-size: 160px;
+      }
     }
     h3 {
       font-size: 30px;

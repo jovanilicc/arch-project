@@ -11,19 +11,31 @@
     font-size: 60px;
     line-height: 1.2;
     font-weight: 900;
+    @include xl-query {
+      font-size: 48px;
+    }
   }
   .black-bg {
     background: #000;
     padding: 80px 0;
+    @include xl-query {
+      padding: 40px 0;
+    }
   }
   .black-btn {
     width: 350px;
     color: #fff;
     font-weight: 500;
+    @include xl-query {
+      max-width: 300px;
+    }
   }
   a {
     color: #87868b;
     font-size: 24px;
     font-weight: 700;
+    @include xl-query {
+      font-size: 20px;
+    }
   }
 }

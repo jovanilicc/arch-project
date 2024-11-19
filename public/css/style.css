@@ -42,6 +42,13 @@ p {
   background: #393939;
   color: #fff;
 }
+@media only screen and (max-width: 1200px) {
+  .black-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    max-width: 300px;
+  }
+}
 
 .header .logo {
   font-weight: 900;
@@ -68,19 +75,39 @@ p {
   line-height: 1.2;
   font-weight: 900;
 }
+@media only screen and (max-width: 1440px) {
+  .footer .logo {
+    font-size: 48px;
+  }
+}
 .footer .black-bg {
   background: #000;
   padding: 80px 0;
+}
+@media only screen and (max-width: 1440px) {
+  .footer .black-bg {
+    padding: 40px 0;
+  }
 }
 .footer .black-btn {
   width: 350px;
   color: #fff;
   font-weight: 500;
 }
+@media only screen and (max-width: 1440px) {
+  .footer .black-btn {
+    max-width: 300px;
+  }
+}
 .footer a {
   color: #87868b;
   font-size: 24px;
   font-weight: 700;
+}
+@media only screen and (max-width: 1440px) {
+  .footer a {
+    font-size: 20px;
+  }
 }
 
 .hero-section {
@@ -88,12 +115,29 @@ p {
   margin-bottom: 160px;
   background: url("/public/images/hero-image.png") no-repeat center;
 }
+@media only screen and (max-width: 1440px) {
+  .hero-section {
+    margin-bottom: 100px;
+    padding: 100px 0;
+  }
+}
 .hero-section .box {
   max-width: 240px;
   display: flex;
   left: -92px;
   bottom: -168px;
   position: absolute;
+  box-shadow: 2 2 4px #212121;
+}
+@media only screen and (max-width: 1800px) {
+  .hero-section .box {
+    left: -12px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .hero-section .box {
+    bottom: -102px;
+  }
 }
 .hero-section .box__item {
   color: #87868b;
@@ -124,18 +168,39 @@ p {
   font-size: 100px;
   color: #000000;
 }
+@media only screen and (max-width: 1200px) {
+  .hero-section h1 {
+    font-size: 60px;
+  }
+}
 .hero-section p {
   font-size: 24px;
   color: #19181a;
+}
+@media only screen and (max-width: 768px) {
+  .hero-section p {
+    font-size: 16px;
+  }
 }
 
 .welcome-section {
   margin-bottom: 270px;
 }
+@media only screen and (max-width: 1440px) {
+  .welcome-section {
+    margin-bottom: 180px;
+  }
+}
 .welcome-section .bg-stairs {
   background: url("/public/images/spiral-stairscase.png") no-repeat;
   background-position: right bottom;
   padding-bottom: 30px;
+}
+@media only screen and (max-width: 1440px) {
+  .welcome-section .bg-stairs {
+    background-size: 50%;
+    padding-bottom: 0;
+  }
 }
 .welcome-section .intro {
   font-weight: 600;
@@ -144,39 +209,84 @@ p {
   padding-bottom: 73px;
   line-height: 1;
 }
+@media only screen and (max-width: 1440px) {
+  .welcome-section .intro {
+    font-size: 160px;
+  }
+}
 .welcome-section h2 {
   font-size: 60px;
   font-weight: 700;
+}
+@media only screen and (max-width: 1440px) {
+  .welcome-section h2 {
+    font-size: 48px;
+  }
 }
 .welcome-section p {
   color: #87868b;
   font-size: 24px;
   font-weight: 500;
 }
+@media only screen and (max-width: 1440px) {
+  .welcome-section p {
+    font-size: 20px;
+  }
+}
 
 .about-section {
   margin-bottom: 280px;
+}
+@media only screen and (max-width: 1440px) {
+  .about-section {
+    margin-bottom: 100px;
+  }
 }
 .about-section .bg-team {
   background: url("/public/images/design-ideas.png") no-repeat center;
   background-size: cover;
   padding: 280px 0;
 }
+@media only screen and (max-width: 1440px) {
+  .about-section .bg-team {
+    padding: 140px 0;
+  }
+}
 .about-section h2 {
   font-size: 60px;
   color: #fff;
 }
+@media only screen and (max-width: 1440px) {
+  .about-section h2 {
+    font-size: 48px;
+  }
+}
 .about-section .black-btn {
   max-width: 250px;
+}
+@media only screen and (max-width: 1440px) {
+  .about-section .black-btn {
+    max-width: 200px;
+  }
 }
 
 .featured-section {
   margin-bottom: 220px;
 }
+@media only screen and (max-width: 1440px) {
+  .featured-section {
+    margin-bottom: 100px;
+  }
+}
 .featured-section h2 {
   font-size: 60px;
   line-height: 1;
   font-weight: 700;
+}
+@media only screen and (max-width: 1440px) {
+  .featured-section h2 {
+    font-size: 48px;
+  }
 }
 .featured-section .black-btn {
   width: 210px;
@@ -193,10 +303,20 @@ p {
   color: #fff;
   padding: 40px 60px 60px 60px;
 }
+@media only screen and (max-width: 1440px) {
+  .featured-section .feature-box__content {
+    padding: 30px 45px 45px 45px;
+  }
+}
 .featured-section .feature-box__number {
   font-size: 270px;
   font-weight: 500;
   line-height: 1;
+}
+@media only screen and (max-width: 1440px) {
+  .featured-section .feature-box__number {
+    font-size: 160px;
+  }
 }
 .featured-section .feature-box h3 {
   font-size: 30px;
