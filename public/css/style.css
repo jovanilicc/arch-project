@@ -35,6 +35,7 @@ p {
   padding: 30px 24px;
   max-width: 350px;
   justify-content: space-between;
+  align-items: center;
   color: #fff;
   transition: all 0.3s ease;
 }
@@ -49,13 +50,23 @@ p {
     max-width: 300px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .black-btn {
+    font-size: 16px;
+  }
+}
 
 .header .logo {
   font-weight: 900;
   font-size: 60px;
   letter-spacing: -6px;
 }
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1440px) {
+  .header .logo {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 481px) {
   .header .logo {
     font-size: 30px;
   }
@@ -68,6 +79,11 @@ p {
 
 .footer .grey-bg {
   background: linear-gradient(90deg, rgb(227, 226, 231) 88%, rgb(255, 255, 255) 88%);
+}
+@media only screen and (max-width: 768px) {
+  .footer .grey-bg {
+    background: #e3e2e7;
+  }
 }
 .footer .logo {
   color: #fff;
@@ -106,7 +122,12 @@ p {
 }
 @media only screen and (max-width: 1440px) {
   .footer a {
-    font-size: 20px;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer a {
+    font-size: 16px;
   }
 }
 
@@ -122,7 +143,7 @@ p {
   }
 }
 .hero-section .box {
-  max-width: 240px;
+  max-width: 320px;
   display: flex;
   left: -92px;
   bottom: -168px;
@@ -137,6 +158,11 @@ p {
 @media only screen and (max-width: 1440px) {
   .hero-section .box {
     bottom: -102px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-section .box {
+    max-width: 240px;
   }
 }
 .hero-section .box__item {
@@ -164,6 +190,12 @@ p {
 .hero-section .box__item--active:hover {
   background: #000000;
 }
+@media only screen and (max-width: 768px) {
+  .hero-section .box__item {
+    min-width: 60px;
+    min-height: 60px;
+  }
+}
 .hero-section h1 {
   font-size: 100px;
   color: #000000;
@@ -171,6 +203,11 @@ p {
 @media only screen and (max-width: 1200px) {
   .hero-section h1 {
     font-size: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 48px;
   }
 }
 .hero-section p {
@@ -191,6 +228,11 @@ p {
     margin-bottom: 180px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .welcome-section {
+    margin-bottom: 100px;
+  }
+}
 .welcome-section .bg-stairs {
   background: url("/public/images/spiral-stairscase.png") no-repeat;
   background-position: right bottom;
@@ -200,6 +242,12 @@ p {
   .welcome-section .bg-stairs {
     background-size: 50%;
     padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .welcome-section .bg-stairs {
+    background-size: cover;
+    padding-bottom: 20px;
   }
 }
 .welcome-section .intro {
@@ -214,6 +262,11 @@ p {
     font-size: 160px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .welcome-section .intro {
+    font-size: 80px;
+  }
+}
 .welcome-section h2 {
   font-size: 60px;
   font-weight: 700;
@@ -221,6 +274,12 @@ p {
 @media only screen and (max-width: 1440px) {
   .welcome-section h2 {
     font-size: 48px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .welcome-section h2 {
+    text-shadow: 0px 0px 4px #939393;
+    color: #fff;
   }
 }
 .welcome-section p {
@@ -231,6 +290,13 @@ p {
 @media only screen and (max-width: 1440px) {
   .welcome-section p {
     font-size: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .welcome-section p {
+    text-shadow: 0px 0px 4px #939393;
+    font-size: 16px;
+    color: #fff;
   }
 }
 
@@ -288,6 +354,11 @@ p {
     font-size: 48px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .featured-section h2 {
+    font-size: 32px;
+  }
+}
 .featured-section .black-btn {
   width: 210px;
 }
@@ -308,6 +379,11 @@ p {
     padding: 30px 45px 45px 45px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .featured-section .feature-box__content {
+    padding: 10px 15px 10px 15px;
+  }
+}
 .featured-section .feature-box__number {
   font-size: 270px;
   font-weight: 500;
@@ -318,16 +394,42 @@ p {
     font-size: 160px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .featured-section .feature-box__number {
+    font-size: 64px;
+  }
+}
 .featured-section .feature-box h3 {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .featured-section .feature-box h3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .featured-section .feature-box h3 {
+    font-size: 13px;
+  }
 }
 .featured-section .feature-box a {
   font-weight: normal;
   font-size: 20px;
   text-decoration: underline;
   text-decoration-thickness: 1px;
+}
+@media only screen and (max-width: 768px) {
+  .featured-section .feature-box a {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .featured-section .feature-box a {
+    font-size: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

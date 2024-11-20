@@ -5,6 +5,9 @@
       rgba(227, 226, 231, 1) 88%,
       rgba(255, 255, 255, 1) 88%
     );
+    @include md-query {
+      background: #e3e2e7;
+    }
   }
   .logo {
     color: #fff;
@@ -35,7 +38,10 @@
     font-size: 24px;
     font-weight: 700;
     @include xl-query {
-      font-size: 20px;
+      font-size: 18px;
+    }
+    @include md-query {
+      font-size: 16px;
     }
   }
 }

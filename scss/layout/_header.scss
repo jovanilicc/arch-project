@@ -3,7 +3,10 @@
     font-weight: 900;
     font-size: 60px;
     letter-spacing: -6px;
-    @include lg-query {
+    @include xl-query {
+      font-size: 48px;
+    }
+    @include sm-query {
       font-size: 30px;
     }
   }
