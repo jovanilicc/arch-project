@@ -1,0 +1,169 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  color: #000000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1600px;
+}
+
+.black-btn {
+  display: flex;
+  font-size: 24px;
+  font-weight: 500;
+  background: #000000;
+  padding: 30px 24px;
+  max-width: 350px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+.black-btn:hover {
+  background: #393939;
+  color: #fff;
+}
+@media only screen and (max-width: 1200px) {
+  .black-btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    max-width: 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .black-btn {
+    font-size: 16px;
+  }
+}
+
+.header .logo {
+  font-weight: 900;
+  font-size: 60px;
+  letter-spacing: -6px;
+}
+@media only screen and (max-width: 1440px) {
+  .header .logo {
+    font-size: 48px;
+  }
+}
+@media only screen and (max-width: 481px) {
+  .header .logo {
+    font-size: 30px;
+  }
+}
+.header nav a {
+  color: #87868b;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer .grey-bg {
+  background: linear-gradient(90deg, rgb(227, 226, 231) 88%, rgb(255, 255, 255) 88%);
+}
+@media only screen and (max-width: 768px) {
+  .footer .grey-bg {
+    background: #e3e2e7;
+  }
+}
+.footer .logo {
+  color: #fff;
+  font-size: 60px;
+  line-height: 1.2;
+  font-weight: 900;
+}
+@media only screen and (max-width: 1440px) {
+  .footer .logo {
+    font-size: 48px;
+  }
+}
+.footer .black-bg {
+  background: #000;
+  padding: 80px 0;
+}
+@media only screen and (max-width: 1440px) {
+  .footer .black-bg {
+    padding: 40px 0;
+  }
+}
+.footer .black-btn {
+  width: 350px;
+  color: #fff;
+  font-weight: 500;
+}
+@media only screen and (max-width: 1440px) {
+  .footer .black-btn {
+    max-width: 300px;
+  }
+}
+.footer a {
+  color: #87868b;
+  font-size: 24px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 1440px) {
+  .footer a {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .footer a {
+    font-size: 16px;
+  }
+}
+
+.about-page .hero-section {
+  margin-bottom: 280px;
+}
+.about-page .hero-section .bg-about {
+  background: url("/public/images/office-desk.png") no-repeat;
+  padding: 250px 0 90px;
+  z-index: 0;
+}
+.about-page .hero-section .white-bg {
+  position: absolute;
+  height: 60%;
+  width: 60%;
+  background: #fff;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+.about-page .hero-section .intro {
+  color: #e3e2e7;
+  font-size: 260px;
+  line-height: 1;
+  font-weight: 600;
+}
+.about-page .hero-section h2 {
+  color: #000000;
+  font-weight: 700;
+  font-size: 52px;
+}
+.about-page .hero-section p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #87868b;
+  padding-right: 100px;
+}
+
+/*# sourceMappingURL=about.css.map */
