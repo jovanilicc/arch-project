@@ -1,0 +1,36 @@
+.about-page {
+  .hero-section {
+    margin-bottom: 280px;
+    .bg-about {
+      background: url("/public/images/office-desk.png") no-repeat;
+      padding: 250px 0 90px;
+      z-index: 0;
+    }
+    .white-bg {
+      position: absolute;
+      height: 60%;
+      width: 60%;
+      background: #fff;
+      bottom: 0;
+      right: 0;
+      z-index: -1;
+    }
+    .intro {
+      color: #e3e2e7;
+      font-size: 260px;
+      line-height: 1;
+      font-weight: 600;
+    }
+    h2 {
+      color: #000000;
+      font-weight: 700;
+      font-size: 52px;
+    }
+    p {
+      font-size: 24px;
+      font-weight: 500;
+      color: #87868b;
+      padding-right: 100px;
+    }
+  }
+}
