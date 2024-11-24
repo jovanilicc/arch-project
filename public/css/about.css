@@ -134,6 +134,11 @@ p {
 .about-page .hero-section {
   margin-bottom: 280px;
 }
+@media only screen and (max-width: 991px) {
+  .about-page .hero-section {
+    margin-bottom: 60px;
+  }
+}
 .about-page .hero-section .bg-about {
   background: url("/public/images/office-desk.png") no-repeat;
   padding: 250px 0 90px;
@@ -148,22 +153,124 @@ p {
   right: 0;
   z-index: -1;
 }
+@media only screen and (max-width: 991px) {
+  .about-page .hero-section .white-bg {
+    display: none;
+  }
+}
 .about-page .hero-section .intro {
   color: #e3e2e7;
   font-size: 260px;
   line-height: 1;
   font-weight: 600;
 }
+@media only screen and (max-width: 1440px) {
+  .about-page .hero-section .intro {
+    font-size: 140px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .about-page .hero-section .intro {
+    padding-bottom: 40px;
+    text-shadow: 0px 0px 4px #939393;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-page .hero-section .intro {
+    font-size: 96px;
+  }
+}
 .about-page .hero-section h2 {
   color: #000000;
   font-weight: 700;
   font-size: 52px;
+}
+@media only screen and (max-width: 991px) {
+  .about-page .hero-section h2 {
+    color: white;
+    text-shadow: 0px 0px 4px #939393;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-page .hero-section h2 {
+    font-size: 36px;
+  }
 }
 .about-page .hero-section p {
   font-size: 24px;
   font-weight: 500;
   color: #87868b;
   padding-right: 100px;
+}
+@media only screen and (max-width: 991px) {
+  .about-page .hero-section p {
+    color: white;
+    text-shadow: 0px 0px 4px #939393;
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .about-page .hero-section p {
+    font-size: 20px;
+  }
+}
+.about-page .section-passion {
+  margin-bottom: 160px;
+}
+@media only screen and (max-width: 991px) {
+  .about-page .section-passion {
+    margin-bottom: 100px;
+  }
+}
+.about-page .section-passion h2 {
+  font-size: 60px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  .about-page .section-passion h2 {
+    font-size: 36px;
+  }
+}
+.about-page .section-passion p {
+  font-size: 24px;
+  font-weight: 500;
+  color: #87868b;
+}
+@media only screen and (max-width: 768px) {
+  .about-page .section-passion p {
+    font-size: 20px;
+  }
+}
+.about-page .section-passion .arrow-image {
+  position: absolute;
+  top: -78%;
+  left: 18%;
+}
+@media only screen and (max-width: 1600px) {
+  .about-page .section-passion .arrow-image {
+    top: -67%;
+  }
+  .about-page .section-passion .arrow-image img {
+    width: 950px;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .about-page .section-passion .arrow-image {
+    top: -55%;
+    left: 20%;
+  }
+  .about-page .section-passion .arrow-image img {
+    width: 800px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-page .section-passion .arrow-image {
+    top: -40%;
+    left: 25%;
+  }
+  .about-page .section-passion .arrow-image img {
+    width: 600px;
+  }
 }
 
 /*# sourceMappingURL=about.css.map */
