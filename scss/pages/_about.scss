@@ -1,6 +1,9 @@
 .about-page {
   .hero-section {
     margin-bottom: 280px;
+    @include tablet {
+      margin-bottom: 60px;
+    }
     .bg-about {
       background: url("/public/images/office-desk.png") no-repeat;
       padding: 250px 0 90px;
@@ -14,23 +17,97 @@
       bottom: 0;
       right: 0;
       z-index: -1;
+      @include tablet {
+        display: none;
+      }
     }
     .intro {
       color: #e3e2e7;
       font-size: 260px;
       line-height: 1;
       font-weight: 600;
+      @include xl-query {
+        font-size: 140px;
+      }
+      @include tablet {
+        padding-bottom: 40px;
+        text-shadow: 0px 0px 4px #939393;
+      }
+      @include md-query {
+        font-size: 96px;
+      }
     }
     h2 {
       color: #000000;
       font-weight: 700;
       font-size: 52px;
+      @include tablet {
+        color: white;
+        text-shadow: 0px 0px 4px #939393;
+      }
+      @include md-query {
+        font-size: 36px;
+      }
     }
     p {
       font-size: 24px;
       font-weight: 500;
       color: #87868b;
       padding-right: 100px;
+      @include tablet {
+        color: white;
+        text-shadow: 0px 0px 4px #939393;
+        padding-right: 0;
+      }
+      @include md-query {
+        font-size: 20px;
+      }
+    }
+  }
+  .section-passion {
+    margin-bottom: 160px;
+    @include tablet {
+      margin-bottom: 100px;
+    }
+    h2 {
+      font-size: 60px;
+      font-weight: 700;
+      @include md-query {
+        font-size: 36px;
+      }
+    }
+    p {
+      font-size: 24px;
+      font-weight: 500;
+      color: #87868b;
+      @include md-query {
+        font-size: 20px;
+      }
+    }
+    .arrow-image {
+      position: absolute;
+      top: -78%;
+      left: 18%;
+      @media only screen and (max-width: 1600px) {
+        top: -67%;
+        img {
+          width: 950px;
+        }
+      }
+      @include xl-query {
+        img {
+          width: 800px;
+        }
+        top: -55%;
+        left: 20%;
+      }
+      @include lg-query {
+        img {
+          width: 600px;
+        }
+        top: -40%;
+        left: 25%;
+      }
     }
   }
 }
