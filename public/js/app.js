@@ -4,7 +4,7 @@ let heroImg = document.querySelector(".hero-section");
 const activeBox = (e) => {
   let currentElement = e.target;
   let imageSrc = currentElement.getAttribute("data-imageSrc");
-  imageSrc = "../images/" + imageSrc + ".png";
+  imageSrc = "/images/" + imageSrc + ".png";
 
   if (currentElement.classList.contains("box__item--active")) {
     return;
